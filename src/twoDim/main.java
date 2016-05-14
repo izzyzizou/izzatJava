@@ -6,12 +6,12 @@ package twoDim;
 public class main {
     public static void main(String[] args)
     {
-        int[][] list = new int[10][5];
-        list[2][2] = 25;
+        int[][] board = {{23,5,6,15,18},{4,16,24,67,10},{12,54,23,76,11},{1,12,34,22,8},{81,54,32,67,33},{12,34,76,78,9}};
 
-        for(int i = 0; i <list.length; i++)
-        {
-            System.out.println(list[i][i]);
-        }
+        twoDimension.printMatrix(board);
+        System.out.println();
+        twoDimension.sumRows(board);
+        System.out.println();
+        twoDimension.largesInRows(board);
     }
 }
