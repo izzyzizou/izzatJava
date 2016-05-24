@@ -1,8 +1,5 @@
 package compare;
 
-/**
- * Created by Izzat on 5/24/2016.
- */
 import java.util.*;
 public class secretCode {
     static Scanner in = new Scanner(System.in);
